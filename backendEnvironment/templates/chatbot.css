@@ -2,6 +2,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#container{
+    width:30%;
+    margin:auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYvm5zSwS8rbLb8i4deksSUgfteezyPBWtag&usqp=CAU") ;
+}
 .chat-container {
     max-width: 400px;
     margin: 0 auto;
@@ -44,6 +49,9 @@ body {
     animation: typing 1s infinite;
 }
 
+.name{
+    font-size: 30px;
+}
 @keyframes typing {
     0% { opacity: 0.5; }
     50% { opacity: 1; }
@@ -65,13 +73,15 @@ input[type="text"] {
 
 .dot {
     display: inline-block;
-    width: 8px;
-    height: 8px;
-    background-color: #4CAF50; /* Green dot color */
+    width: 12px;
+    height: 12px;
+    background-color: #33a737; /* Green dot color */
     border-radius: 50%;
     margin-right: 5px; /* Add spacing between dot and text */
 }
-
+.status{
+    font-size: 21px;
+}
 button {
     padding: 10px 15px;
     background-color: #007BFF;
